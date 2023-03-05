@@ -1,4 +1,4 @@
-let initialState = 10;
+let initialState = 0;
 
 const counterReducer = (state=initialState,{type,payload})=>{
  switch(type){
