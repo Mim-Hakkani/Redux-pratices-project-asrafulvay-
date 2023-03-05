@@ -1,7 +1,13 @@
+import colorReducer from "./reducers/colorReducer";
 import counterReducer from "./reducers/counterReducer";
 
-const { createStore } = require("redux");
+const { createStore, combineReducers } = require("redux");
 
-const store = createStore(counterReducer);
+const rootReducer = combineReducers({
+    color : colorReducer,
+    counter :counterReducer
+})
+
+const store = createStore(rootReducer);
 
 export default store;
