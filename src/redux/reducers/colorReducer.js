@@ -1,6 +1,6 @@
 import { AUTO, BLUE, GREEN, ORANGE, PINK, RED } from "../actionTypes/actionTypes"
 
-const initialColor = ""
+const initialColor = "red"
 
 const colorReducer = (state=initialColor,{type,payload})=>{
     switch(type){
