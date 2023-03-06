@@ -12,3 +12,8 @@ export const  GREEN= "GREEN"
 export const  PINK= "PINK"
 export const  BLUE= "BLUE"
 export const  ORANGE= "ORANGE"
+
+
+// change bg image 
+
+export const CHANGEIMAGE = "CHANGEIMAGE"
